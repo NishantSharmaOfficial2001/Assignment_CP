@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 12px;
 }
 .top{
     width: 360px;
@@ -135,4 +136,104 @@ background-color: #00A542;
 height: 44px;
 background-color: aqua;
 margin: auto;
+}
+.frame-in6{
+    width: 20px;
+height: 28px;
+background-color: aliceblue;
+float:left;
+}
+.frame-in7{
+    width: 197px;
+height: 44px;
+background-color: #a58c00;
+float: right;
+}
+.button{
+    width: 40px;
+height: 40px;
+background-color: antiquewhite;
+float: right;
+margin: top;
+}
+#vector3{
+    color: #667085;
+}
+.frame-out3{
+    width: 360px;
+height: 84px;
+background-color: red;
+}
+.bottom{
+    width: 360px;
+height: 264px;
+
+background: antiquewhite;
+border-radius: 12px;
+}
+.frame-in8{
+    width: 197px;
+height: 44px;
+background-color: #a58c00;
+}
+.badge-base{
+    width: 102px;
+height: 28px;
+background: #ECFDF3;
+border-radius: 16px;
+float: right;
+}
+.dot{
+    width: 6px;
+height: 6px;
+left: 1px;
+top: 1px;
+
+background: #12B76A;
+}
+.o-text{
+    width: 66px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+
+text-align: center;
+
+color: #027A48;
+margin: auto;
+}
+.badge-base2{
+    width: 102px;
+height: 28px;
+
+border-radius: 16px;
+background-color: rgba(0, 17, 255, 0.384);
+float:right;
+}
+.o-text2{
+    width: 66px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+
+text-align: center;
+
+color: #fc0101;
+margin: auto;
+}
+#dot2{
+    width: 6px;
+height: 6px;
+left: 1px;
+top: 1px;
+
+background: #fc0101;
 }
