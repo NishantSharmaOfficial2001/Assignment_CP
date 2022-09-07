@@ -2,5 +2,137 @@
     width: 360px;
     height: 671px;
     background-color: antiquewhite;
-    margin: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top{
+    width: 360px;
+    height: 391px;
+    background-color: aqua;
+
+}
+.content{
+    width: 360px;
+    height: 92px;
+    background-color:red;
+}
+.header{
+    width: 312px;
+    height: 48px;
+    background-color: yellow;
+    margin:auto;
+}
+.featured-icon{
+width: 48px;
+height: 48px;
+
+background: #C2E8C9;
+border-radius: 2.22222e+13px;
+
+}
+.bolt{
+    width: 36px;
+height: 36px;
+background-color: white;
+border-radius: 2.22222e+13px;
+margin:auto;
+
+}
+#vector{
+    color: #00A542;
+    font-size: 36px;
+}
+.frame-1{
+width: 157px;
+height: 32px;
+background-color: #00A542;
+float: right;
+flex-direction: column;
+margin: auto;
+}
+.text{
+    width: 157px;
+height: 32px;
+background-color: rgb(243, 240, 255);
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+color: #101828;
+margin: auto;
+}
+.frame-in1{
+    width: 146px;
+height: 40px;
+background-color: white;
+}
+.divider{
+    width: 360px;
+height: 1px;
+background: #E4E7EC;
+}
+.frame-out1{
+    width: 360px;
+height: 124px;
+background-color: #00A542;
+}
+.frame-in2{
+width: 285px;
+height: 84px;
+background-color: red;
+margin: auto;
+}
+.frame-in3{
+width: 20px;
+height: 28px;
+background-color: aquamarine;
+margin: auto;
+float:left
+}
+#vector2{
+    color: #98A2B3;
+}
+.frame-in4{
+    width: 253px;
+height: 84px;
+background-color: aqua;
+margin: auto;
+}
+.text1{
+    width: 58px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+
+color: #667085;
+margin: auto;
+border: 0.08px solid #FFFFFF;
+}
+.text2{
+    width: 253px;
+height: 60px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #101828;
+}
+.frame-out2{
+    width: 360px;
+height: 84px;
+background-color: #00A542;
+}
+.frame-in5{
+    width: 256px;
+height: 44px;
+background-color: aqua;
+margin: auto;
 }
