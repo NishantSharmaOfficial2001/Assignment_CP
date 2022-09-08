@@ -4,7 +4,7 @@
     background-color: antiquewhite;
     display: flex;
     align-items: center;
-    justify-content: center;
+    text-align: justify;
     border-radius: 12px;
 }
 .top{
@@ -51,6 +51,7 @@ background-color: #00A542;
 float: right;
 flex-direction: column;
 margin: auto;
+text-align: center;
 }
 .text{
     width: 157px;
@@ -213,6 +214,7 @@ height: 28px;
 border-radius: 16px;
 background-color: rgba(0, 17, 255, 0.384);
 float:right;
+text-align: justify;
 }
 .o-text2{
     width: 66px;
@@ -228,6 +230,7 @@ text-align: center;
 
 color: #fc0101;
 margin: auto;
+
 }
 #dot2{
     width: 6px;
@@ -236,4 +239,17 @@ left: 1px;
 top: 1px;
 
 background: #fc0101;
+}
+.frame-out4{
+    width: 260px;
+height: 46px;
+background-color: burlywood;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+margin: auto;
+text-align: justify;
+
 }
