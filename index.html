@@ -48,10 +48,10 @@
                     <td class="frame-in7">
                         <emp class="text1">Chargepoint ID</emp>
                         <br>
-                        <emp class="text2">567456AD</emp>
+                        <emp class="text2" id="copy_cp">567456AD</emp>
                     </td>
                     <td class="button">
-                        <b class="material-icons" id="vector_cp">content_copy</b>
+                        <button class="material-icons" id="vector_cp">content_copy</button>
                     </td>
                 </tr>
                
@@ -66,10 +66,12 @@
                     <td class="frame-in7">
                         <emp class="text1">Chargepoint URL</emp>
                         <br>
-                        <emp class="text2">54.66.66.58</emp>
+                        <emp class="text2"  id="copy_cp">54.66.66.58</emp>
                     </td>
                     <td class="button">
-                        <emp class="material-icons" id="vector_cp">content_copy</emp>
+                        <div>
+                        <button class="material-icons" id="vector_cp" onclick="myFunction()" onmouseout="outFunc()">content_copy<span class="tooltiptext" id="myTooltip"></span></button>
+                    </div>
                     </td>
                 </tr>
                 
@@ -133,5 +135,8 @@
 
         </div>
 </div>
+<script src="copy.js">
+</script>
+
 </body>
 </html>
