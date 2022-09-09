@@ -9,6 +9,17 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
       <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+      <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>  
+  
+<!-- Javascript -->  
+<script>  
+$(function() {  
+$("#tooltip-1").tooltip();  
+$("#tooltip-2").tooltip();  
+});  
+</script>  
 </head>
 <body>
     <div align="center" class="container">
@@ -48,12 +59,23 @@
                     <td class="frame-in7">
                         <emp class="text1">Chargepoint ID</emp>
                         <br>
-                        <emp class="text2" id="copy_cp">567456AD</emp>
+                        <input type="text" class="text2"  id="myInput" value="567456AD" readonly>
                     </td>
                     <td class="button">
-                        <button class="material-icons" id="vector_cp">content_copy</button>
+                        <div>
+                        <a id="tooltip-1" href="#" title="copy to clipboard">
+                        <button class="material-icons" id="vector_cp" onclick="copyText()">content_copy</button></a>
+                    </div>
                     </td>
                 </tr>
+                <script>
+                    function copyText() {
+                        var copyText = document.getElementById("myInput");
+                        copyText.select();
+                        document.execCommand("copy");
+                        alert("Copied to Clipboard");
+                      }
+                    </script>
                
             </table></div>
             <hr class="divider">
@@ -66,15 +88,23 @@
                     <td class="frame-in7">
                         <emp class="text1">Chargepoint URL</emp>
                         <br>
-                        <emp class="text2"  id="copy_cp">54.66.66.58</emp>
+                        <input type="text" class="text2"  id="myInput2" value="54.66.66.58" readonly>
                     </td>
                     <td class="button">
                         <div>
-                        <button class="material-icons" id="vector_cp" onclick="myFunction()" onmouseout="outFunc()">content_copy<span class="tooltiptext" id="myTooltip"></span></button>
+                            <a id="tooltip-2" href="#" title="copy to clipboard">  
+                        <button class="material-icons" id="vector_cp" onclick="copyText2()">content_copy</button></a>
                     </div>
                     </td>
                 </tr>
-                
+                <script>
+                function copyText2() {
+                    var copyText = document.getElementById("myInput2");
+                    copyText.select();
+                    document.execCommand("copy");
+                    alert("Copied to Clipboard");
+                  }
+                </script>
 
             </table>
         </div>
